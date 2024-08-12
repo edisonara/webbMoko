@@ -24,6 +24,12 @@ h1 {
     color: white; /* Color de texto blanco */
     padding: 10px 20px; /* Ajusta el padding según sea necesario */
 }
+.subtitulo {
+    font-family: 'YourChosenFont', sans-serif; /* Cambia 'YourChosenFont' por la fuente que desees utilizar */
+    background-color: #314a87; /* Color de fondo azul oscuro */
+    color: white; /* Color de texto blanco */
+    padding: 10px 20px; /* Ajusta el padding según sea necesario */
+}
 
 a {
     color: #3498db;
@@ -88,6 +94,17 @@ a:hover {
     font-size: 2.5rem;
     margin-bottom: 30px;
     animation: fadeIn 1s ease-in-out;
+}
+
+.hero-section h2 {
+    font-size: 1.5rem;
+    color: #f5f6f8;
+    margin-bottom: 30px;
+    font-weight: 300;
+    line-height: 1.5;
+    animation: fadeIn 1s ease-in-out;
+    animation-delay: 0.5s;
+    animation-timing-function: ease-in-out;
 }
 
 @media (max-width: 768px) {
